@@ -1,5 +1,5 @@
 ﻿
-namespace HelloWorld
+namespace test11
 {
     class Geometry
     {

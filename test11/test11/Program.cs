@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HelloWorld
+namespace test11
 {
     class Program
     {
@@ -8,7 +8,7 @@ namespace HelloWorld
 
 
 
-       public static void Main(string[] args)
+        public static void Main(string[] args)
         {
 
             double len;
@@ -17,7 +17,7 @@ namespace HelloWorld
             double len2;
 
             len2 = Geometry.GetVector3DLength(1, 2, 3);
-
+            
             int a = 3;
             int b = 5;
 
@@ -27,8 +27,8 @@ namespace HelloWorld
             int i = 1;
             int p = 2;
 
-            Misc.IsEven( i);
-            Misc.IsEven( p);
+            Misc.IsEven(i);
+            Misc.IsEven(p);
 
             int x = -2;
             int y = 3;
@@ -40,12 +40,16 @@ namespace HelloWorld
 
             Geometry.GetCircleArea(r);
 
+        }
+
+        public static void prueba ()
+        {
+
             
 
 
         }
-
-       
+        
        
 
     }
