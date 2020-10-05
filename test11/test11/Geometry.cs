@@ -25,9 +25,9 @@ namespace HelloWorld
             double vy = y2 - y1;
             return GetVector2DLength(vx, vy);
         }
-        public static double AreIntersecting(double )
-        {
+        //public static double AreIntersecting(double )
+       //{
 
-        }
+        //}
     }
 }
