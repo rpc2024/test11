@@ -40,15 +40,10 @@ namespace test11
 
             Geometry.GetCircleArea(r);
 
+            ejercicio.Ejercicio4();
         }
 
-        public static void prueba ()
-        {
-
-            
-
-
-        }
+        
         
        
 

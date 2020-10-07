@@ -31,8 +31,44 @@ namespace test11
                     System.Console.WriteLine(i);
                 i++;
             }
-            // Hacer un programa si un número es primo o no
+            
+        }
+        
+
+        public static void Ejercicio3()
+        {   
+            for (int i = 5; i > -90; i --) ;
         }
 
+
+       // public static void Ejercicio4()
+       // {
+            
+        //    for (int i = 0; i > 90; i++) ;
+        //    {
+        //        if ((i % 2) == 0)
+        //            System.Console.WriteLine(-i);
+        //        else
+        //            System.Console.WriteLine(i);
+
+        //    }
+      //  }
+
+        public static void Ejercicio4()
+        {
+            
+            int number = 0;
+            int number2 = 1;
+            int i = number + number2;
+           while (i < 90)
+            {
+                System.Console.WriteLine(i);
+                number2 = number + number2;
+                number = number2 - number;
+            }
+
+
+
+        }
     }
 }
